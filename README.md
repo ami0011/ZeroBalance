@@ -115,4 +115,4 @@ steps:
 	  
 	 So we can write like  `@import 'colorSchemes/mint` and colorScheme will be changed.
 	 
-**Note**: We cane also ad our own custom colorScheme within `colorScheme` folder then import it.
+**Note**: We can also add our own custom colorScheme within `colorScheme` folder then import it.
