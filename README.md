@@ -95,3 +95,24 @@ The directory structure of this template is as follows:
        ├──package.json               * what npm uses to manage it's dependencies
        ├──bower.json                 * DEPRECATED - moving to npm as primary package manager for all dependenties
        └──.bowerrc                   * DEPRECARD - temporary bower configuration
+
+----------
+####**Changing Color Scheme**
+We have a added three color configuration file for color scheme customization. Just need to update our colorTheme name to our scss file.
+steps: 
+
+ 1. Goto `src/app/theme/sass/conf/colorScheme/_mint.scss to src/app/theme/sass/conf/`
+ 2. open `conf.scss`
+ 3. At the top of this file you must see some import statements. e.g. 
+`@import 'mixins';
+@import 'colorSchemes/ng2';
+@import 'variables';
+`
+ 4. Now we can see our color import statement `@import 'colorSchemes/ng2`. We have three options right now 
+	 - ng2
+	 - mint
+	 - blur
+	  
+	 So we can write like  `@import 'colorSchemes/mint` and colorScheme will be changed.
+	 
+**Note**: We cane also ad our own custom colorScheme within `colorScheme` folder then import it.
