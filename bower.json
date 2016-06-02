@@ -1,0 +1,21 @@
+{
+  "name": "Finix",
+  "version": "0.0.1",
+  "description": "Finix - The Web App",
+  "author": "Amitesh Chauhan",
+  "homepage": "#",
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ionicons": "ionicons#~2.0.1"
+  }
+}
