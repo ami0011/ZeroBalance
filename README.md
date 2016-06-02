@@ -35,3 +35,11 @@ Once cloning is done then go to the inner folder
 then run the following command
 
 	npm install
+After successful installation of all dependencies it’s time to run our application.
+	Hit `npm start`  then goto [http://locathost:3000](http:loclhost:3000) in your browser.
+	
+To run the local copy in production mode and build the sources, execute:
+
+    npm run prebuild:prod && npm run build:prod && npm run server:prod
+
+This will clear up your dist folder (where release files are located), generate release build and start built-in server. Now you can copy the sources from a dist folder and use it with any backend framework or simply put it under some web server.
