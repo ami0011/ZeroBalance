@@ -36,7 +36,7 @@ then run the following command
 
 	npm install
 After successful installation of all dependencies it’s time to run our application.
-	Hit `npm start`  then goto [http://locathost:3000](http:loclhost:3000) in your browser.
+	Hit `npm start`  then goto [http://localhost:3000/](http://localhost:3000/) in your browser.
 	
 To run the local copy in production mode and build the sources, execute:
 
